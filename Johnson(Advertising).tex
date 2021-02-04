@@ -1,0 +1,180 @@
+%% The MIT License (MIT)
+%%
+%% Copyright (c) 2015 Daniil Belyakov
+%%
+%% Permission is hereby granted, free of charge, to any person obtaining a copy
+%% of this software and associated documentation files (the "Software"), to deal
+%% in the Software without restriction, including without limitation the rights
+%% to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+%% copies of the Software, and to permit persons to whom the Software is
+%% furnished to do so, subject to the following conditions:
+%%
+%% The above copyright notice and this permission notice shall be included in all
+%% copies or substantial portions of the Software.
+%%
+%% THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+%% IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+%% FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+%% AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+%% LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+%% OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+%% SOFTWARE.
+
+% The font could be set to Windows-specific Calibri by using the 'calibri' option
+\documentclass[]{johnsoncv}
+
+% For mathematical symbols
+\usepackage{amsmath}
+\usepackage[none]{hyphenat}
+\usepackage{multicol}
+
+% Set applicant's personal data for header
+\name{Jeffrey Johnson}
+% \address{8 South Highview Avenue \linebreak New City, NY 10956}
+\address{New City, NY \linebreak www.github.com/jj-28}
+\contacts{(845)-269-8744 \linebreak jeffreykjohnsonvb@gmail.com}
+\linkedin{www.linkedin.com/in/jeffreyjohnsonswe}
+
+\begin{document}
+
+	% Print the header
+	\makeheader
+	
+	% Print the content
+	
+	\begin{cvsection}{Education}
+		\begin{cvsubsection}{Oswego, NY}{State University of New York (SUNY) College at Oswego}{Fall 2016 – Dec. 2020}
+			\begin{itemize}
+				\item B.A in Computer Science, Dec. 2020
+				\item Undergraduate Coursework: Programming Languages, Web Services, Data Structures and Algorithms
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+
+	\begin{cvsection}{Languages and Technologies}
+		\begin{cvsubsection}{}{}{}	
+			\begin{itemize}
+				\item Proficient with: Java; Some Experience with: HTML, CSS, JavaScript, Python, C
+				% , LaTeX;
+				\item NetBeans, IntelliJ IDEA, Visual Studio Code
+				\item Bootstrap 4, Java EE, MySQL, Java Swing, Git
+				\item Ubuntu, macOS, Windows 10
+				% \item Microsoft Office, G Suite, Google Ads, Adobe Photoshop CC, Adobe After Effects
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+
+		% \begin{cvsection}{Employment}
+	% 	\begin{cvsubsection}{Technology Instructor}{Lavner Camps}{Summer 2019}
+	% 		Engineering Camp with littleBits – Invent And Code (NYU Campus)
+	% 		\begin{itemize}
+	% 			\item Demonstrated professionalism and adaptability in rapidly changing situations. 
+	% 			\item Taught programming syntax and programming methodologies to 9 children weekly.
+	% 			\item Implemented engaging activities to encourage teamwork and creativity amongst pupils.
+	% 			\item Helped campers create interactive projects with littleBits circuits.
+	% 		\end{itemize}
+	% 	\end{cvsubsection}
+	% \end{cvsection}
+
+	\begin{cvsection}{Selected Coursework}
+		
+		\begin{cvsubsection}{Software Engineering (Fall 2017)}{}{}
+			GUIGoPiGo
+			\begin{itemize}
+				\item Designed a web client for a robot using HTML, CSS, and JavaScript.
+				\item Implemented a waypoint tracking system that updated an image of the car's location.
+				\item Used Linux Terminal to manage files hosted on the robot and run Python code.
+				\item Contributed to the software requirement specifications document (SRS) that described the goals and purpose of the project.
+				\item Created UML diagrams to represent the system under development (class, sequence, and activity diagrams).
+				\item Used Git for version control and code management.
+			\end{itemize}
+		\end{cvsubsection}
+
+		\begin{cvsubsection}{Web Services (Spring 2020)}{}{}
+			\begin{itemize}
+				\item Designed a RESTful API which allowed a user to create an account, add sneakers to a SQL table, and retrieve the information as a JSON response.
+				\item Used Postman to test API endpoints.
+				\item Set up a Tomcat 7 server to receive HTTP requests from a client.
+				\item Set up SQL tables using MySQL to store user credentials, sneaker data and API tokens.
+				\item Used Maven to build sources and download dependencies for the project.
+				\item Implemented the API in multiple frameworks over the course of the semester (Java EE Servlet API, Grails, Spark Java and Dropwizard).
+			\end{itemize}
+		\end{cvsubsection}	
+
+		\begin{cvsubsection}{Data Structures and Algorithms (Fall 2020)}{}{}
+			\begin{itemize}
+				\item Developed an application that searches for Wikipedia links on a page to derive the link that would be most relevant to a user.
+				\item Used JSoup to a scrape Wikipedia page for links to other Wikipedia pages.
+				\item Implemented a separate chaining HashTable to store word information (term frequency, word length, document word count).
+				\item Implemented a term frequency–inverse document frequency (TD-IDF) statistic to obtain the URL that is most relevant to the original Wikipedia page.
+				\item Designed a Java Swing GUI that displayed the comparison metrics.
+			\end{itemize}
+		\end{cvsubsection}
+	
+
+	% \begin{cvsubsection}{Software Quality (Fall 2019)}{}{}
+	% 	\begin{itemize}
+	% 		\item Worked in a 3 person team to create a Quality Management Plan (QMP) that expressed the team's rationale behind the various testing methods.
+	% 		\item Utilized Specification Based Testing (SBT) techniques to derive equivalence classes.
+	% 		\item Derived \textbf{100+} test cases for all non-trivial methods and classes in the program.
+	% 		\item Implemented all test cases in JUnit and reported a \textbf{96.88\%} test passing rate.
+	% 	\end{itemize}
+	% \end{cvsubsection}
+
+	\end{cvsection}
+
+
+
+	\begin{cvsection}{Projects}
+		\begin{cvsubsection}{JBento (2018- Present)}{}{}
+			\begin{itemize}
+				\item Created a brand centered around the sale and distribution of Hip-Hop instrumentals.
+				\item Ran Google Ads campaigns which resulted in \textbf{38,100} total impressions and \textbf{8,300} YouTube views to increase brand awareness and sales.
+				\item Utilizes Adobe After Effects to create dynamic and eye catching visuals.
+				\item Utilizes Adobe Photoshop to edit and create images for promotion and social media campaigns.
+				\item Researches and implements Search Engine Optimization techniques to improve YouTube video rankings.
+				\item Regularly uploads music production content to various social media platforms (Instagram, Twitter, Facebook, YouTube, etc.)
+				\item Uses Mailchimp to communicate with an email list of 300 subscribers.
+			\end{itemize}
+	\end{cvsubsection}
+	% 	\begin{cvsubsection}{Other Projects}{}{}
+	% 		\begin{itemize}
+	% 			\item \textbf{JBento} (2019-Present). Website created to sell instrumental music. Bootstrap 4, HTML, CSS, JavaScript;
+	% 			\item \textbf{mailMe} (2019). Program that filters source files in a directory and creates HTML files comprised of all keywords found. Compresses the files and automatically emails them to a user specified email address. Python, Linux, HTML, CSS;
+	% 			\item \textbf{Dictionary GUI} (2016). Graphical User Interface for a dictionary comprised of 20,000 words. Java, Java Swing;
+	% 			\item \textbf{Turing Machine} (2019). Turing Machine implementation. Can read and write digits from a text file and print to the command line. C;
+
+	% 		\end{itemize}
+	% 	\end{cvsubsection}
+	\end{cvsection}
+	
+	\begin{cvsection}{Additional Experience and Awards}
+		\begin{cvsubsection}{}{}{}	
+			\begin{itemize}
+				\item \textbf{Computer Science Association Tutor (2017):} Reinforced object-oriented programming principles and taught useful debugging techniques to students.
+				\item \textbf{Digital Music Association President (2018-Present):} Organizes programs and workshops focused on music production and showcasing student talent on campus.
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+
+
+	% \begin{cvsection}{Personal Interests}
+	% 	\begin{cvsubsection}{}{}{}	
+	% 		\begin{multicols} {2}
+	% 		\begin{itemize}
+	% 		\setlength\columnsep{4pt}
+	% 			\item Music Production (Recording, Composition)
+	% 			% \item Instruments (Guitar, Violin, Drums)
+	% 			\item Graphic Design
+	% 		% \columnbreak
+	% 			\item Sneakers
+	% 			\item Basketball
+	% 			% \item Mobile Device Repair
+	% 		\end{itemize}
+	% 		\end{multicols}
+	% 	\end{cvsubsection}
+	% \end{cvsection}
+	
+	
+	
+\end{document}

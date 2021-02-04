@@ -1,0 +1,215 @@
+% !TEX program = lualatex
+%% The MIT License (MIT) 
+%%
+%% Copyright (c) 2015 Daniil Belyakov
+%%
+%% Permission is hereby granted, free of charge, to any person obtaining a copy
+%% of this software and associated documentation files (the "Software"), to deal
+%% in the Software without restriction, including without limitation the rights
+%% to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+%% copies of the Software, and to permit persons to whom the Software is
+%% furnished to do so, subject to the following conditions:
+%%
+%% The above copyright notice and this permission notice shall be included in all
+%% copies or substantial portions of the Software.
+%%
+%% THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+%% IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+%% FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+%% AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+%% LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+%% OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+%% SOFTWARE.
+% MASTER RESUME
+
+% The font could be set to Windows-specific Calibri by using the 'calibri' option
+\documentclass[]{johnsoncv}
+
+% For mathematical symbols
+\usepackage{amsmath}
+\usepackage[none]{hyphenat}
+\usepackage{multicol}
+
+% Set applicant's personal data for header
+\name{Jeffrey Johnson}
+% \address{8 South Highview Avenue \linebreak New City, NY 10956}
+\address{New City, NY \linebreak www.github.com/jj-28}
+\contacts{(845)-269-8744 \linebreak jeffrey.johnsonswe@gmail.com}
+\linkedin{www.linkedin.com/in/jeffreyjohnsonswe}
+
+\begin{document}
+
+	% Print the header
+	\makeheader
+	
+	% Print the content
+	
+	\begin{cvsection}{Education}
+		\begin{cvsubsection}{Oswego, NY}{State University of New York (SUNY) College at Oswego}{Aug. 2016 – Dec. 2020}
+			\begin{itemize}
+				\item B.A in Computer Science, Dec. 2020
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+
+	\begin{cvsection}{Languages and Technologies}
+		\begin{cvsubsection}{}{}{}	
+			\begin{itemize}
+				\item Languages: Java, HTML, CSS, JavaScript, Python, Golang;
+				\item Frameworks: Java EE, Bootstrap 4, Spark Java, Dropwizard, Java Swing;
+				\item Databases/Servers: MySQL, Tomcat 8;
+				\item Cloud Software: AWS Docker, S3, DynamoDb, EC2, ECS, CodeDeploy, CodeBuild;
+				\item Version Control: Git, GitHub;
+				% \item IDES: NetBeans, IntelliJ IDEA, Visual Studio Code;
+				% \item Operating Systems: Ubuntu, MacOS, Windows 10;
+				% \item MailerLite, Mailchimp, G Suite, Google Ads 
+				% \item Adobe Photoshop CC, Adobe After Effects, Microsoft Office, G Suite, Google Ads 
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+
+		% \begin{cvsection}{Employment}
+	% 	\begin{cvsubsection}{Technology Instructor}{Lavner Camps}{May 2019}
+	% 		Engineering Camp with littleBits – Invent And Code (NYU Campus)
+	% 		\begin{itemize}
+	% 			\item Demonstrated professionalism and adaptability in rapidly changing situations. 
+	% 			\item Taught programming syntax and programming methodologies to 9 children weekly.
+	% 			\item Implemented engaging activities to encourage teamwork and creativity amongst pupils.
+	% 			\item Helped campers create interactive projects with littleBits circuits.
+	% 		\end{itemize}
+	% 	\end{cvsubsection}
+	% \end{cvsection}
+ 
+
+	\begin{cvsection}{Projects}
+		\begin{cvsubsection}{JBento (2019- Present)}{}{}
+			\begin{itemize}
+		\item Founded a music brand for the sale of instrumental music licenses and sample packs.
+		\item Designed and created a static website using Bootstrap 4 and JavaScript.
+		\item Lowered the average page loading speed by \textbf{25 percent} through image compression and css minification.
+		\item Utilized Git, GitHub and CPanel for version control and automatic deployment.
+		\item Ran Google Ads campaigns which resulted in \textbf{42,700} impressions and \textbf{10,000} YouTube views to increase brand awareness and sales.
+		% \item Set up Google Analytics to track sales conversions and user traffic sources.
+		% \item Set up a Facebook Pixel to capture leads and emails from free downloads.
+			% \item Created a brand centered around the sale and istribution of Hip-Hop instrumentals and sample packs.
+		% \item Designed and created a static website using Bootstrap 4.
+		% \item Built a YouTube channel that attracts 3,000 views, 2,00 minutes of watch time, and new 100 subscribers every month.
+		% \item Ran Google Ads campaigns which resulted in \textbf{42,700} total impressions and \textbf{9,997} YouTube views to increase brand awareness and sales.
+		% \item Utilizes Adobe Photoshop to edit and create images for promotion and social media campaigns.
+		% \item Utilizes Adobe After Effects to create dynamic and eye catching visuals.
+		% \item Researches and implements Search Engine Optimization techniques to improve YouTube video rankings.
+		% \item Utilized MailerLite and Mailchimp to collect leads through lead magnets and implemented a drip marketing campaign to increase sales.
+		% \item Utilized Adobe Photoshop to edit and create images for promotion and social media campaigns.
+		% \item Utilized MailerLite and Mailchimp to collect leads through lead magnets and implemented a drip marketing campaign to increase sales.
+			\end{itemize}
+	\end{cvsubsection}
+		% \begin{cvsubsection}{Other Projects}{}{}
+		% 	\begin{itemize}
+		% 		\item \textbf{mailMe} (2019). Program that filters through source code in a directory and creates HTML files comprised of all keywords found. Compresses the files and automatically emails them to a user specified email address. Python, Linux, HTML, CSS;
+		% 		\item \textbf{Dictionary GUI} (2016). Graphical User Interface for a dictionary comprised of 20,000 words. Java, Java Swing;
+		% 		\item \textbf{Turing Machine} (2019). Turing Machine implementation. Can read and write digits from a text file and print to the command line. C;
+
+		% 	\end{itemize}
+		% \end{cvsubsection}
+	\end{cvsection}
+
+	\begin{cvsection}{Selected Coursework}
+
+		\begin{cvsubsection}{Software Deployment (Fall 2020)}{}{}
+			\begin{itemize}
+				\item Designed an API that polled subscriber data from a given YouTube Channel ID and implemented it in Go.
+				\item Built and deployed Docker images to Docker containers on a hosted Amazon EC2 instance.
+				\item Reduced the image footprint by \textbf{90 percent} (200 MB- 10 MB) by creating a Docker image build from scratch.
+				\item Sanitized URL query parameters to ensure the system would be safe from XSS attacks.
+				\item Utilized DynamoDb to create a NoSQL database that stored the data (subscribers, views, etc.) of a user.
+				\item Utilized AWS S3 to host a static website.
+				\item Used AWS CodeDeploy and CodeBuild to automatically build and deploy Go source code hosted on GitHub.
+			\end{itemize}
+		\end{cvsubsection}
+
+		\begin{cvsubsection}{Web Services (Spring 2020)}{}{}
+			% SneakerBeast
+			\begin{itemize}
+				\item Designed a RESTful API for a beverage store, allowing an authenticated user CRUD permissions.
+				\item Utilized design patterns such as Model View Controller and Data Access Object to minimize repetitive code.
+				\item Used Postman to test API endpoints and token authentication.
+				\item Configured the application to consume and produce JSON.
+				\item Created SQL tables using MySQL to store user credentials, sneaker data and API tokens.
+				% \item Set up a Tomcat 8 server to receive HTTP requests from a client.
+				% \item Used Maven to build sources and download dependencies for the project.
+				% \item Implemented the API in multiple frameworks over the course of the semester (Java EE Servlet API, Java Spark, Dropwizard).
+				% \item Used Git for version control and code management. 
+			\end{itemize}
+		\end{cvsubsection}
+		
+
+		
+		% \begin{cvsubsection}{Software Engineering (Fall 2017)}{}{}
+		% 	GUIGoPiGo
+		% 	\begin{itemize}
+		% 		\item Worked in a 3 person team to design a web GUI client for a robot using HTML, CSS, and JavaScript.
+		% 		\item Created a JQuery function that passed location data from the client to the server hosted on the robot.
+		% 		\item Created a waypoint tracking system that changed location on the GUI, relative to the robot's physical position.
+		% 		\item Used the Linux terminal to manage files hosted on the robot, run Python code,and install packages.
+		% 		\item Contributed to the software requirement specifications document (SRS) that described the goals and purpose of the project.
+		% 		\item Created UML diagrams to represent the system under development (class, sequence, and activity diagrams).
+		% 		% \item Used GitHub and Git to manage the various branches and code in the project.
+		% 	\end{itemize}
+		% \end{cvsubsection}
+
+		\begin{cvsubsection}{Algorithms (Fall 2020)}{}{}
+			\begin{itemize}  
+				\item Developed an application that compares all of the Wikipedia links on a page to derive the most relevant link.
+				% \item Used JSoup to scrape Wikipedia page for links to other Wikipedia pages.
+				\item Implemented a separate-chaining HashTable to store word information.
+				% (term frequency, word length, document word count).
+				\item Implemented a term frequency–inverse document frequency (TD-IDF) statistic to compare links.
+				% \item Designed a Java Swing GUI that displayed the comparison metrics.
+				\item Created an application that parsed customer grocery lists and returned the items that were strongly associated.
+				\item Utilized the Apriori Algorithm to create frequent itemsets and association rules between frequent items. 
+				\item Implemented a image segmentation algorithm that isolated regions of an picture and colors similar regions.
+			\end{itemize}
+		\end{cvsubsection}
+	
+
+	% \begin{cvsubsection}{Software Quality (Fall 2019)}{}{}
+	% 	\begin{itemize}
+	% 		\item Worked in a 3 person team to create a Quality Management Plan (QMP) that expressed the team's rationale behind the various testing methods.
+	% 		\item Utilized Specification Based Testing (SBT) techniques to derive equivalence classes.
+	% 		\item Derived \textbf{100+} test cases for all non-trivial methods and classes in the program.
+	% 		\item Implemented all test cases in JUnit and reported a \textbf{96.88\%} test passing rate.
+	% 	\end{itemize}
+	% \end{cvsubsection}
+
+	\end{cvsection}
+	
+	% \begin{cvsection}{Leadership}
+	% 	\begin{cvsubsection}{}{}{}	
+	% 		\begin{itemize}
+	% 			\item \textbf{Computer Science Association Tutor (2017):} Reinforced object-oriented programming principles and taught useful debugging techniques to students.
+	% 			\item \textbf{Digital Music Association President (2018-2020):} Organizes programs and workshops focused on music production and showcasing student talent on campus.
+	% 		\end{itemize}
+	% 	\end{cvsubsection}
+	% \end{cvsection}
+
+
+	% \begin{cvsection}{Personal Interests}
+	% 	\begin{cvsubsection}{}{}{}	
+	% 		\begin{multicols} {2}
+	% 		\begin{itemize}
+	% 		\setlength\columnsep{4pt}
+	% 			\item Music Production (Recording, Composition)
+	% 			% \item Instruments (Guitar, Violin, Drums)
+	% 			\item Graphic Design
+	% 		% \columnbreak
+	% 			\item Sneakers
+	% 			\item Basketball
+	% 			% \item Mobile Device Repair
+	% 		\end{itemize}
+	% 		\end{multicols}
+	% 	\end{cvsubsection}
+	% \end{cvsection}
+	
+	
+	
+\end{document}
